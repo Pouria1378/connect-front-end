@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "tailwind": "npx tailwindcss -i ./app/globals.css -o ./app/index.css --watch",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
